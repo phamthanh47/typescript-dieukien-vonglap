@@ -1,4 +1,4 @@
-import "./scss/styles.scss";
+//import "./scss/styles.scss";
 
 /**
  * If/else
@@ -18,7 +18,7 @@ console.log(count);
 
 console.log("for loop");
 
-const keys = "abcdef";
+const keys:any = "abcdef";
 for (let idx = 0; idx < keys.length; ++idx) {
   console.log(keys[idx]);
 }
@@ -39,7 +39,7 @@ do {
 } while (idx < keys.length);
 
 console.log("for-of loop");
-for (const item of keys) {
+for (const item in keys) {
   console.log(item);
 }
 
